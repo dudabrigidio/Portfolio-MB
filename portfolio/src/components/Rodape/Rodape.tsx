@@ -30,7 +30,7 @@ export default function Rodape() {
             url: "https://github.com/dudabrigidio",
         },
         {
-            icon: "/img/logo-4.png",
+            icon: "/img/logo-5.png",
             title: "LINKEDIN",
             text: "linkedin/mbrigidio/",
             url: "https://www.linkedin.com/in/mbrigidio/",
