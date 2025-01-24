@@ -7,8 +7,8 @@ interface AnimationProps {
 }
 
 const Animation: React.FC<AnimationProps> = ({ children }) => {
-    const ref = useRef<HTMLSpanElement | null>(null); 
-    const isInView = useInView(ref, { once: true });
+    const ref = useRef<HTMLDivElement  | null>(null); 
+    const isInView = useInView(ref, { once: true, margin: "-50px 0px -50px 0px",});
     
 
 
