@@ -44,7 +44,7 @@ export default function Home() {
         <div ref={projetosSectionRef} className="bg-custom-gray w-full text-white py-20 pl-20 pr-[5%] sm:p-20 md:p-12 lg:p-12">
             <Projetos/>
         </div>
-        <div className="bg-custom-beige  w-fulltext-custom-brown px-20 py-10">
+        <div className="bg-custom-beige  w-full text-custom-brown px-20 py-10">
             <Habilidades/>
         </div>
         <div ref={skillsSectionRef} className="bg-custom-light w-full text-white px-20 py-10">
