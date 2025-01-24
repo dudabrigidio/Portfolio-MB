@@ -30,7 +30,7 @@ export default function Home() {
     return (
     
 
-        <div className="h-screen w-full">
+        <div className="h-screen w-max-[100%] overflow-x-hidden">
         <Animation>
             <div className="bg-custom-gray text-white p-20 sm:p-0 sm:pl-10">
             <Main onNavigate={handleScroll}/>
