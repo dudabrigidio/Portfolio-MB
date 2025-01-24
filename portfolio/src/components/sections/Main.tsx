@@ -49,7 +49,7 @@ export default function Main({ onNavigate }: MainProps) {
             </div>
 
             <div className="flex ">
-                <p className="w-[40%] sm:w-[60%] sm:pt-0 mt-10 pt-20 mb-20 mr-20 sm:mr-0 text-[1rem]  md:mt-0">Estudante de Análise e Desenvolvimento de Sistemas, com experiência acadêmiem desenvolvimento web, estratégias digitais e back-end. Apaixonada por tecnologia e lógica, foco no aprimoramento contínuo, na colaboração e na criação de soluções inovadoras e eficazes.</p>
+                <p className="w-[40%] sm:w-[60%] sm:pt-0 mt-10 pt-20 mb-20 mr-20 sm:mr-0 text-[1rem]  md:mt-0">Estudante de Análise e Desenvolvimento de Sistemas, com experiência acadêmica em desenvolvimento web, estratégias digitais e back-end. Apaixonada por tecnologia e lógica, foco no aprimoramento contínuo, na colaboração e na criação de soluções inovadoras e eficazes.</p>
             
                 <div className="max-w-[40%] ml-20 pl-20 sm:pt-0 sm:mt-0 mr-10 sm:ml-0 sm:mr-10 sm:max-w-[100%]">
                     <Image
