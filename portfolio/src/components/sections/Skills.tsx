@@ -25,9 +25,9 @@ export default function Skillls() {
     );
 
     const ListHard = () => (
-        <div className="grid grid-cols-2 gap-2 gap-w-0 sm:flex sm:flex-col leading-tight py-10">
+        <div className="grid grid-cols-2 gap-2 gap-w-0 sm:flex sm:flex-col leading-tight py-10 md:">
             {hard.map((skill, index) => (
-                <div key={index} className="py-8">
+                <div key={index} className="py-8 sm:py-4">
                     <h2 className="text-lg uppercase max-w-[55%]">{skill.title}</h2>
                     <ul className="leading-tight p-5">
                         {skill.skills.map((skill, index) => (
@@ -82,7 +82,7 @@ export default function Skillls() {
             <Animation>
                 <div className="flex flex-row md:flex md:flex-col">
                     <div className="flex flex-col">
-                        <h1 className="text-[4.0rem] sm:mt-10 lg:text-[2.7rem] md:text-[3.5rem]">HARD SKILLS</h1>
+                        <h1 className="text-[4.0rem] sm:mt-[70%] lg:text-[2.7rem] md:text-[3.5rem]">HARD SKILLS</h1>
                         <ListHard/>
                     </div>
                 
