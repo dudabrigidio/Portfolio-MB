@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Open+Sans:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root {
+  --custom-gray: #aaa69f;
+  --custom-beige: #e4dedb;
+  --custom-dark: #74746e;
+  --custom-brown: #9f8f89;
+  --custom-light: #c3b5a9;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-questrial;
+  
+}
+
+p {
+  @apply font-open-sans;
+}
+
