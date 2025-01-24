@@ -37,7 +37,7 @@ export default function Home() {
             </div>
         </Animation>
 
-        <div ref={aboutSectionRef} className="bg-custom-beige w-full text-custom-dark p-20 sm:p-0">
+        <div ref={aboutSectionRef} className="bg-custom-beige w-max-[100%] overflow-x-hidden text-custom-dark p-20 sm:p-0">
             <About/>
             <Journey/>
         </div>
