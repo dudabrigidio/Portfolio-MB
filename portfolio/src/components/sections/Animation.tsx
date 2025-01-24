@@ -13,7 +13,7 @@ const Animation: React.FC<AnimationProps> = ({ children }) => {
 
 
     return (
-        <section ref={ref} style={{ minHeight: "100px" }}>
+        <section ref={ref} style={{ minWidth: "100px" }}>
 
             
             <span
