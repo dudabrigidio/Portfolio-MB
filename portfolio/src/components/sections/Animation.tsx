@@ -1,7 +1,6 @@
 "use client";
 import { ReactNode, useRef } from "react";
 import { useInView } from "framer-motion";
-import "intersection-observer";
 
 
 interface AnimationProps {
