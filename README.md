@@ -29,18 +29,6 @@ npm install  # ou yarn install
 npm run dev  
 ```
 
-## Estrutura do Projeto
-```
-|-- src/
-    |-- components/
-    |-- pages/
-    |-- styles/
-    |-- public/
-|-- package.json
-|-- tailwind.config.ts
-|-- tsconfig.json
-```
-
 ## Contato
 Para mais informações, acesse [o portfólio online](https://portfolio-mbrigidio-git-main-maria-brigidios-projects.vercel.app/).
 
