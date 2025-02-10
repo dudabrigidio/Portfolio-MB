@@ -15,7 +15,7 @@ export default function Journey() {
     ]
 
     const ListEstudos = () => (
-        <div className="border-t-[1.5px] border-custom-dark">
+        <div className="border-t-[1.5px] border-white">
             <h1 className="text-[2.5rem] mt-10">Estudos</h1>
             <ul className="">
                 {estudos.map((estudo, index) => (
@@ -29,7 +29,7 @@ export default function Journey() {
     )
 
     const ListTrabalhos = () => (
-        <div className="border-t-[1.5px] border-custom-dark">
+        <div className="border-t-[1.5px] border-white">
             <h1 className="text-[2.5rem] mt-10">Trabalhos</h1>
             <ul className="">
                 {trabalhos.map((trabalho, index) => (
@@ -45,7 +45,7 @@ export default function Journey() {
 
     return (
         <Animation>
-            <div className="flex pb-20  lg:flex-col sm:p-10 sm:justify-center">
+            <div className="flex pb-20 mt-20 lg:flex-col sm:p-10 sm:justify-center">
                 <div className="w-full ">
                     <h1 className="text-[4.5rem] mt-[20%] sm:mt-10 lg:text-[3rem] md:text-[3.5rem] leading-none"> MINHA <br/> JORNADA </h1>
                     <Animation>

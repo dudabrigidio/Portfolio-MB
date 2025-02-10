@@ -37,23 +37,25 @@ export default function Home() {
             </div>
         </Animation>
 
-        <div ref={aboutSectionRef} className="bg-custom-beige w-max-[100%] overflow-x-hidden text-custom-dark p-20 sm:p-0">
+        <div ref={projetosSectionRef} className="bg-custom-beige w-full text-custom-dark-gray py-20 pl-20 pr-[5%] sm:p-20 md:p-12 lg:p-12">
+            <Projetos/>
+        </div>
+
+        <div ref={aboutSectionRef} className="bg-custom-light  w-max-[100%] overflow-x-hidden text-white p-20 sm:p-0">
             <About/>
             <Journey/>
         </div>
-        <div ref={projetosSectionRef} className="bg-custom-gray w-full text-white py-20 pl-20 pr-[5%] sm:p-20 md:p-12 lg:p-12">
-            <Projetos/>
-        </div>
+    
         <div className="bg-custom-beige  w-full text-custom-brown px-20 py-10">
             <Habilidades/>
         </div>
-        <div ref={skillsSectionRef} className="bg-custom-light w-full text-white px-20 py-10">
+        <div ref={skillsSectionRef} className="bg-custom-gray w-full text-white px-20 py-10">
             <Skillls/>
         </div>
         <div className="bg-custom-beige w-full text-custom-brown">
             <Objetivo/>
         </div>
-        <div className="bg-custom-gray w-full text-white">
+        <div className="bg-custom-light w-full text-white">
             <Rodape/>
         </div>
         </div>

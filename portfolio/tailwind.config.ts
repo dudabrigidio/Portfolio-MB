@@ -16,6 +16,7 @@ export default {
         "custom-beige": "var(--custom-beige)",
         "custom-brown": "var(--custom-brown)",
         "custom-light": "var(--custom-light)",
+        "custom-dark-gray": "var(--custom-dark-gray)",
       },
       fontFamily: {
         'questrial': ['questrial', 'sans-serif'], 

@@ -80,7 +80,7 @@ export default function Skillls() {
             </Animation>
 
             <Animation>
-                <div className="flex flex-row md:flex md:flex-col">
+                <div className="flex flex-row md:flex md:flex-col lg:flex-col">
                     <div className="flex flex-col">
                         <h1 className="text-[4.0rem] sm:mt-[50%] lg:text-[2.7rem] md:text-[3.5rem]">HARD SKILLS</h1>
                         <ListHard/>
@@ -94,7 +94,7 @@ export default function Skillls() {
                             width={300}
                             height={200}
                         />
-                        <div className=" flex flex-col items-end sm:items-start">
+                        <div className=" flex flex-col items-end lg:items-start mt-[30%] lg:my-20">
                             <ListIdiomas/>
                         </div>
 
