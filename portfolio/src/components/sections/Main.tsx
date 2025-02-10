@@ -10,8 +10,8 @@ export default function Main({ onNavigate }: MainProps) {
 
 
     return (
-        <div className="flex flex-col sm:pt-0">
-            <div>
+        <div className="flex flex-col sm:pt-0 relative">
+            <div className="">
             
                 <div className="flex flex-row mb-0 items-end md:my-20 lg:pt-20">
                     
@@ -38,8 +38,10 @@ export default function Main({ onNavigate }: MainProps) {
                     
                         
 
-
-                    <Menu onNavigate={onNavigate} />
+                    <div className="absolute top-0 right-0">
+                        <Menu onNavigate={onNavigate} />
+                    </div>
+                    
                     
                     <h1 className="text-[6.0rem] sm:p-0 sm:mr-10  lg:text-[4rem] sm:text-[4rem] leading-none mb-0 pl-20 mr-10 ">MARIA BRIGIDIO</h1>
 

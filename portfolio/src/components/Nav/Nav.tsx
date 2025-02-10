@@ -17,7 +17,7 @@ export default function Menu({ onNavigate }: MenuProps)  {
         };
 
         return (
-            <div className="absolute top-5 right-5">
+            <div>
             <button
                 onClick={openMenu}
                 className="w-12 h-12 flex items-center justify-center rounded-full hover:scale-105 transition-transform"
@@ -52,6 +52,8 @@ export default function Menu({ onNavigate }: MenuProps)  {
                     className="p-3 flex justify-end hover:bg-gray-200 cursor-pointer text-[0.9rem]">
                         Skills
                     </li>
+
+                
 
                 </ul>
                 </div>
