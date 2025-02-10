@@ -9,10 +9,9 @@ export default function Projetos() {
                 <div className="flex flex-row max-w-full space-x-0 sm:flex-col md:flex-col lg:flex-col">
                     <div className="flex flex-col w-max-[200px] space-y-0 sm:space-y-[25%] md:space-y-[25%] ">
                         <h1 className="text-[3.0rem] sm:mt-10 lg:text-[2.7rem] md:text-[3.5rem]">PROJETOS <br/> REALIZADOS</h1>
-                        
-                        <div className="flex space-x-5 items-center pt-[55%] sm:pt-10 md:pt-0 lg:pt-20 sm:pl-2 md:pl-2">
+                        <div className="flex flex-row space-x-5 pt-[55%] sm:pt-10 md:pt-0 lg:pt-20 sm:pl-2 md:pl-2">
                             <h1 className="text-[4.0rem] lg:text-[3rem] md:text-[3.5rem]">01</h1>
-                            <div className="flex flex-col w-[60%]">
+                            <div className="flex flex-col w-[60%] sm:w-[80%]">
                                 <h2 className="text-[1.6rem] sm:mt-10 md:mt-3 lg:mt-3">MECHIA - PORTO SEGURO</h2>
                                 <p className="text-xs w-[100%]">Desenvolvemos uma solução inovadora em um projeto acadêmico para a Porto Seguro: um portal que permite ao usuário realizar o diagnóstico do veículo de forma 100% online e agendar um horário com o mecânico, proporcionando mais praticidade e otimização de tempo.</p>
                                 
@@ -35,7 +34,7 @@ export default function Projetos() {
                 <div className="flex flex-row max-w-full sm:flex-col md:flex-col lg:flex-col mt-[20%] ">
                     <div className="flex flex-col space-y-[50%] sm:space-y-[25%] md:space-y-[25%] ">
                         
-                        <div className="flex space-x-5 items-center pt-[55%] sm:pt-10 md:pt-0 sm:pl-2 md:pl-2">
+                        <div className="flex flex-row space-x-5 pt-[55%] sm:pt-10 md:pt-0 sm:pl-2 md:pl-2">
                             <h1 className="text-[4.5rem] lg:text-[3rem] md:text-[3.5rem]">02</h1>
                             <div className=" w-[60%]">
                                 <h2 className="text-[1.8rem] sm:mt-10 md:mt-3">MISS HAIR STUDIO</h2>
