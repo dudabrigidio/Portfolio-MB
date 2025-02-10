@@ -22,7 +22,7 @@ export default function Projetos() {
                     </div>
                     <Image
                         src="/img/mechia.png"
-                        alt="Perfil"
+                        alt="Mechia"
                         className="max-w-full mt-10 h-auto"
                         width={1500}
                         height={100}
