@@ -38,7 +38,7 @@ export default function Main({ onNavigate }: MainProps) {
                     
                         
 
-                    <div className=" fixed top-5 right-10">
+                    <div className=" fixed top-5 right-5">
                         <Menu onNavigate={onNavigate} />
                     </div>
                     
