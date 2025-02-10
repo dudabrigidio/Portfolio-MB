@@ -3,11 +3,11 @@ import Animation from "./Animation";
 
 export default function Objetivo () {
     return (
-        <div >
-
+        <div className=" w-full px-20 pb-20 sm:py-20">
             <Animation>
-            <div className="flex flex-col items-center w-full px-20 pb-20 sm:py-20">
+            <div className="flex flex-col items-center">
                 <h1 className="text-center leading-none text-[4.5rem] mt-[20%] sm:my-10 lg:text-[2.5rem] md:text-[3.5rem] ">OBJETIVO<br/>PROFISSIONAL</h1>
+
                 <Image 
                                     src="/img/objetivo.png" 
                                     alt="imagem"

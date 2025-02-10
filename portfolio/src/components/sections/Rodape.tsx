@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import Animation from "../sections/Animation";
 
 export default function Rodape() {
 
@@ -65,32 +64,35 @@ export default function Rodape() {
 
 
     return (
-        <Animation>
-            <div className="flex pt-10 sm:m-0">
-                <div className="flex flex-col">
-                    <h2 className="text-[3.5rem] sm:text-[2.5rem] p-20" >CONTATO</h2>
-                    <LinkList/>
-                </div>
-                <div className="ml-auto p-20 mr-[15%] mt-[15%] pb-0">
-                    <Image 
-                        src="/img/contato-1.png" 
-                        alt="imagem"
-                        width={300} 
-                        height={300} 
-                        className="sm:max-w-0 md:max-w-0" 
-                    />
-                
-                    <Image 
-                        src="/img/contato-2.png" 
-                        alt="imagem"
-                        width={350} 
-                        height={350} 
-                        className="ml-[40%] mt-0 sm:max-w-0 md:max-w-0" 
-                    />
-                </div>
-                
+
+
+        <div className="flex flex-row pt-10 sm:m-0">
+
+            <div className="flex flex-col">
+                <h2 className="text-[3.5rem] sm:text-[2.5rem] p-20" >CONTATO</h2>
+                <LinkList/>
             </div>
-        </Animation>
+            <div className="ml-auto p-20 mr-[15%] mt-[15%] pb-0">
+                <Image 
+                    src="/img/contato-1.png" 
+                    alt="imagem"
+                    width={300} 
+                    height={300} 
+                    className="sm:max-w-0 md:max-w-0" 
+                />
+            
+                <Image 
+                    src="/img/contato-2.png" 
+                    alt="imagem"
+                    width={350} 
+                    height={350} 
+                    className="ml-[40%] mt-0 sm:max-w-0 md:max-w-0" 
+                />
+            </div>
+        </div>
+        
+
+        
         
     );
 }

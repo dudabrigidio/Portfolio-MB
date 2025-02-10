@@ -53,6 +53,13 @@ export default function Menu({ onNavigate }: MenuProps)  {
                         Skills
                     </li>
 
+                    
+                    <li 
+                    onClick={() => onNavigate('contato')}
+                    className="p-3 flex justify-end hover:bg-gray-200 cursor-pointer text-[0.9rem]">
+                        Contato
+                    </li>
+
                 
 
                 </ul>
