@@ -3,15 +3,15 @@ import Animation from "./Animation";
 export default function Journey() {
 
     const estudos = [
-        {title: 'Ensino Médio', local: 'Coimbra, Portugal', data: 'Concluído em 2021'},
-        {title: 'Análise e Desenvolvimento de Sistemas', local: 'FIAP, São Paulo', data: 'atualmente'},
+        {title: 'Análise e Desenvolvimento de Sistemas', local: 'FIAP, São Paulo', data: 'CURSANDO'},
+        {title: 'Ensino Médio', local: 'Coimbra, Portugal', data: 'CONCLUÍDO EM 2021'},
         {title: 'Francês (1 ano), Alemão e Espanhol (6 meses)', local: 'Universidade de Coimbra', data: '2020'}
     ]
 
     const trabalhos = [
-        {title: 'Assistente de Marketing (Freelance)', local: 'Miss Hair Studio', data: 'atualmente'},
-        {title: 'Vendedora (Setor de Moda)', local: 'El Corte Inglés Portugal, Lisboa', data: 'ago 2022- fev 2023'},
-        {title: 'Vendedora (Setor de Tecnologia)', local: 'Altice Portugal, Lisboa', data: 'mar 2022 - jul 2022'}
+        {title: 'Assistente de Marketing (Freelance)', local: 'Miss Hair Studio', data: 'ATUALMENTE'},
+        {title: 'Vendedora (Setor de Moda)', local: 'El Corte Inglés Portugal, Lisboa', data: 'AGO 2022- FEV 2023'},
+        {title: 'Vendedora (Setor de Tecnologia)', local: 'Altice Portugal, Lisboa', data: 'MAR 2022 - JUL 2022'}
     ]
 
     const ListEstudos = () => (

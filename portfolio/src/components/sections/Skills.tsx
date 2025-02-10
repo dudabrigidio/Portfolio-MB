@@ -2,7 +2,7 @@ import Image from "next/image";
 import Animation from "./Animation";
 
 export default function Skillls() {
-    const soft = ['Trabalho em equipe','Adaptabilidade', 'Criatividade', 'Resolução de Problemas', 'Comunicação ', 'Inteligência Emocional', 'Resiliência', 'Gestão de Tempo', 'Organização', 'Pensamento Crítico', 'Aprendizado Contínuo', 'Empatia']
+    const soft = ['Adaptabilidade', 'Criatividade', 'Resolução de Problemas', 'Proatividade', 'Pensamento Crítico', 'Foco em resultados']
 
     const hard = [
         {title: 'Linguagens de programação', skills: ['Java', 'Python', 'HTML/CSS', 'JavaScript', 'Linguagens de programação']},
@@ -14,7 +14,7 @@ export default function Skillls() {
     const idiomas = [ 'Inglês (Fluente)', 'Espanhol (Intermediário)', 'Francês (Intermediário)', 'Alemão (Básico)', 'Italiano (Básico)']
 
     const ListSoft = () => (
-        <ul className="grid grid-cols-2 md:flex md:flex-col gap-2 gap-w-20 leading-tight p-10">
+        <ul className="grid grid-cols-2 md:flex md:flex-col gap-2 gap-w-20 leading-tight p-10 pt-20">
             {soft.map((skill, index) => (
                 <li key={index} className="list-disc ">
                     <p>{skill}</p>
@@ -61,7 +61,7 @@ export default function Skillls() {
             <Animation>
                 <div className="flex flex-row">
                     <div className="flex flex-col flex-1">
-                        <h1 className="text-[4.0rem] sm:mt-10 lg:text-[2.7rem] md:text-[3.5rem]">SOFT SKILLS</h1>
+                        <h1 className="text-[4.0rem] sm:mt-10 lg:text-[2.7rem] md:text-[3.5rem] pt-10">SOFT SKILLS</h1>
                         <ListSoft/>
                     </div>
                     <div className="flex-1 items-end">
